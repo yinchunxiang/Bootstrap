@@ -1,6 +1,13 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:#f4f4f4;
+}
 .navbar{
     background:#F97300;
 }
+
+/*.navbar-brand代表home*/
 .nav-link , .navbar-brand{
     color: #f4f4f4; cursor: pointer;
 }
@@ -8,7 +15,8 @@
 
 /*控制悬浮的时候，背景是灰白色，颜色是橙色*/
 .nav-link:hover{
-    background: #f4f4f4; color: #f97300;
+    background: #f4f4f4;
+    color: #f97300;
 }
 
 /*将navbar menu放到右边*/
@@ -25,7 +33,7 @@
 /*header style*/
 .header{
     position: relative;
-    background-image: url('../images/headerback.jpg');
+    background-image: url("../images/headerback.jpg");
     /*background-attachment: fixed;*/
     background-size: cover;
     background-position: center;
